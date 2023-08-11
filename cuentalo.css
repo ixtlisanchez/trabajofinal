@@ -1,0 +1,40 @@
+header{
+    background-color: #8e22bb;
+  }
+  .enlaces {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .imagen {
+    margin-left: 35px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none !important;
+    list-style-type: none;
+    margin-right: 40px;
+  }
+  
+  .enlaces a:hover {
+    color: white;
+  }
+
+  footer {
+    background-color: #871cb4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .copyright {
+    font-size: 14px;
+    line-height: 1.5;
+  }
